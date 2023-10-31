@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
  /* Home Section */
 .header{
     position: fixed;
@@ -178,8 +182,9 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
-    top: 935px;
+    height: 400px;
+    left: -10px;
+    top: 985px;
     position: absolute;
 }
 
@@ -212,8 +217,9 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
-    top: 1700px;
+    height: 400px;
+    left: 25px;
+    top: 1720px;
     position: absolute;
 }
 .grid text-center{
@@ -230,8 +236,9 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
-    top: 2485px;
+    height: 400px;
+    left: 40px;
+    top: 2500px;
     position: absolute;
 }
 
@@ -245,7 +252,8 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
+    height: 400px;
+    left: 55px;    
     top: 3190px;
     position: absolute;
 }
@@ -259,8 +267,9 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
-    top: 3695px;
+    height: 400px;
+    left: -2px;
+    top: 3740px;
     position: absolute;
 }
 /* Contact Section */
@@ -273,7 +282,8 @@
     color: white;
     font-size: 150px;
     transform: rotate(-40deg);
-    left: 0;
-    top: 4535px;
+    height: 400px;
+    left: 13px;
+    top: 4565px;
     position: absolute;
 }
