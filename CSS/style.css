@@ -10,7 +10,7 @@
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #031540;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,45 +19,57 @@
 
 .logo{
     font-size: 25px;
-    color: white;
+    color: transparent;
     text-decoration: none;
+    -webkit-text-stroke: .5px white;
     font-weight: 700;
 }
 
-.navbar a{
-    font-size: 18px;
-    color: turquoise;
-    text-decoration: none;
-    font-weight: 500;
-    margin-left: 35px;
-    transition: .1s;
-}
-.navbar a:hover{
+.logo:hover{
+    cursor: pointer;
     color: white;
+}
+
+#nav  li a{
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+}
+#offcanvas{
+    background-color: black;
+    color: rgb(190, 0, 0);
+}
+#offcanvasNavbar{
+    background-color:white(190, 0, 0);
+    color: black;
+}
+#burger{
+ background-color: black;
+ color: white;
 }
 
 .home{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10%;
 }
 
-.home-image{
+.image-me{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 500px;
     height: 500px;
-    background: #031540;
+    background: black;
     border-radius: 50%;
     border: 25px solid white;
-    outline: 25px solid #031540;
+    outline: 25px solid black;
 }
 
-.home-image img{
+.image-me img{
     position: relative;
     bottom: 22px;
     max-width: 380px;
@@ -65,22 +77,22 @@
     border-radius: 45%;
 }
 
-.home-content{
+.name{
     max-width: 600px;
     color: aliceblue;
     text-align: right;
 }
 
-.home-content h1{
+.name h1{
     font-size: 55px;
     line-height: 1.2;
 }
 
-.home-content h3{
+.name h3{
     font-size: 40px;
     color: transparent;
     -webkit-text-stroke: .5px white;
-    background-image: linear-gradient(#00abf0, #00abf0);
+    background-image: linear-gradient(white, white);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -410px 0;
@@ -101,11 +113,11 @@
     margin-top: 20px;
 }
 
-.home-sci{
+.icons{
     margin: 25px 0 40px;
 }
 
-.home-sci a{
+.icons a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -115,58 +127,77 @@
     border: 2px solid white;
     border-radius: 50%;
     font-size: 20px;
-    color: aqua;
+    color: white;
     text-decoration: none;
     margin-left: 12px;
     transition: .5s;
 }
 
-.home-sci a:hover{
-    background: aqua;
-    color: aliceblue;
-    border-color: #031540;
-    box-shadow: 0 0 10px aqua;
+.icons a:hover{
+    background: black;
+    color: white;
+    border-color: black;
+    box-shadow: 0 0 10px white;
 }
 
 .btn{
     padding: 12px 35px;
-    background: aqua;
+    background: white;
     border-radius: 40px;
     font-size: 17px;
-    color: aliceblue;
+    color: black;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
-    box-shadow: 0 0 10px aqua;
+    box-shadow: 0 0 10px white;
     transition: .5s;
 }
 
 .btn:hover{
-    box-shadow: none;
+    box-shadow: white;
+    background: black;
+    color: white;
 }
 
 /* About Section */
 .about{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
+}
+
+.about #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    padding-left: 50px;
+    font-size: 150px;
 }
 /* Projects Sections */
 .projects{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
 }
+.grid text-center{
+
+}
+
+/* Skills Section */
+.skills{
+    height: 100vh;
+    background: linear-gradient(-40deg, black 65%, white 35%);
+}
+
 /* Work Section */
 .work{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
 }
 /* Testimonials Section */
 .testimonials{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
 }
 /* Contact Section */
 .contact{
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, white 35%);
+    background: linear-gradient(-40deg, black 65%, white 35%);
 }
