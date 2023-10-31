@@ -18,7 +18,7 @@
 }
 
 .logo{
-    font-size: 25px;
+    font-size: 30px;
     color: transparent;
     text-decoration: none;
     -webkit-text-stroke: .5px white;
@@ -30,14 +30,22 @@
     color: white;
 }
 
-#nav  li a{
-    justify-content: space-between;
+#nav{
+    top: 0;
+    height: 20px;
+}
+#nav li a{
     color: white;
-    font-size: large;
+    font-size: 20px;
+}
+
+#nav li a:hover{
+    color: black;
+    text-decoration: none;
+    -webkit-text-stroke: .9px white;
 }
 #offcanvas{
     background-color: black;
-    color: rgb(190, 0, 0);
 }
 #offcanvasNavbar{
     background-color:white(190, 0, 0);
@@ -168,13 +176,45 @@
 .about #headings{
     -webkit-text-stroke: 5px black;
     color: white;
-    padding-left: 50px;
     font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 935px;
+    position: absolute;
 }
+
+#intro{
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 200px;
+    text-wrap: wrap;
+    list-style: none;
+}
+#intro h1{
+    font-size: 60px;
+    color: transparent;
+    -webkit-text-stroke: .5px white;
+    background-image: linear-gradient(white, white);
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    background-position: -410px 0;
+    animation: animateText 6s linear infinite;
+}
+
 /* Projects Sections */
 .projects{
     height: 100vh;
     background: linear-gradient(-40deg, black 65%, white 35%);
+}
+.projects #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 1700px;
+    position: absolute;
 }
 .grid text-center{
 
@@ -185,19 +225,55 @@
     height: 100vh;
     background: linear-gradient(-40deg, black 65%, white 35%);
 }
+.skills #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 2485px;
+    position: absolute;
+}
 
 /* Work Section */
 .work{
     height: 100vh;
     background: linear-gradient(-40deg, black 65%, white 35%);
 }
+.work #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 3190px;
+    position: absolute;
+}
 /* Testimonials Section */
 .testimonials{
     height: 100vh;
     background: linear-gradient(-40deg, black 65%, white 35%);
 }
+.testimonials #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 3695px;
+    position: absolute;
+}
 /* Contact Section */
 .contact{
     height: 100vh;
     background: linear-gradient(-40deg, black 65%, white 35%);
+}
+.contact #headings{
+    -webkit-text-stroke: 5px black;
+    color: white;
+    font-size: 150px;
+    transform: rotate(-40deg);
+    left: 0;
+    top: 4535px;
+    position: absolute;
 }
