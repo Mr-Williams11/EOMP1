@@ -78,7 +78,31 @@ body{
     background: black;
     border-radius: 50%;
     border: 25px solid white;
-    outline: 25px solid black;
+    outline: 30px solid black;
+}
+
+text{
+    fill: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    /* text-transform: uppercase ; */
+    font-variant-ligatures: none;
+    letter-spacing: 6px;
+    animation: rotate 25s linear infinite;
+    transform-origin:250px 250px;
+}
+svg{
+    width: 858px;
+    position: absolute;
+}
+@keyframes rotate{
+    to{
+        transform: rotate(360deg);
+    }
+}
+.textCircle{
+    transition: transform 1s cubic-bezier(0.65, 0, 0.35, 1 );
+    transform-origin: 250px 250px;
 }
 
 .image-me img{
@@ -88,6 +112,7 @@ body{
     height: 500px;
     border-radius: 45%;
 }
+
 
 .name{
     max-width: 600px;
@@ -242,6 +267,15 @@ body{
     position: absolute;
 }
 
+/* .col-md-4{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    background-color: antiquewhite;
+} */
+
 /* Work Section */
 .work{
     height: 100vh;
@@ -254,7 +288,7 @@ body{
     transform: rotate(-40deg);
     height: 400px;
     left: 55px;    
-    top: 3190px;
+    top: 3185px;
     position: absolute;
 }
 /* Testimonials Section */
@@ -269,7 +303,7 @@ body{
     transform: rotate(-40deg);
     height: 400px;
     left: -2px;
-    top: 3740px;
+    top: 3745px;
     position: absolute;
 }
 /* Contact Section */
@@ -284,6 +318,6 @@ body{
     transform: rotate(-40deg);
     height: 400px;
     left: 13px;
-    top: 4565px;
+    top: 4570px;
     position: absolute;
 }
