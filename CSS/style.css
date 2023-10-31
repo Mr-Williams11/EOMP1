@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background-color: black;
-}
+} */
  /* Home Section */
 .header{
     position: fixed;
@@ -325,4 +325,47 @@ svg{
     left: 13px;
     top: 4570px;
     position: absolute;
+}
+
+.contact h2{
+    color: white;
+    text-align: right;
+}
+
+.contact label{
+    color: white;
+    margin: 20px;
+}
+.form{
+    position: absolute;
+    right: 0;
+    padding-right: 200px;
+    box-sizing: border-box;
+    align-items: left;
+}
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.formcontrol{
+    width: 600px;
+    height: 300px;
+}
+#send{
+    padding: 10px;
+    width: 50%;
+    border: black;
+    outline: none;
+}
+#send:hover{
+    background-color: white;
+    color: white(8, 218, 237);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px white;
 }
