@@ -254,6 +254,18 @@ svg{
     right: 0;
 }
 
+.col-3{
+    position: absolute;
+    display: flex;
+    right: 0;
+    width: 800px;
+    height: 100px;
+}
+.col-3 img{
+    width: 200px;
+    height: 200px;
+}
+
 /* Skills Section */
 .skills{
     height: 100vh;
