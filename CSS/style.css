@@ -247,8 +247,11 @@ svg{
     top: 1725px;
     position: absolute;
 }
-.grid text-center{
 
+.projects-grid{
+    display: grid;
+    position: absolute;
+    right: 0;
 }
 
 /* Skills Section */
