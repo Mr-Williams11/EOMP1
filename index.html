@@ -4,6 +4,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="stylesheet" href="/CSS/responsiveness.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Tilt+Neon&display=swap" rel="stylesheet">
@@ -83,7 +84,7 @@
           <a href="#"><i class='bx bxl-instagram'></i></a>
           <a href="#"><i class='bx bxl-linkedin'></i></a>
         </div>
-        <a href="#" class="btn">Download CV</a>
+        <a href="/Curriculum Vitae of Joel Kenneth Williams.pdf" class="btn">Download CV</a>
       </div>
     </section>
     
@@ -142,12 +143,15 @@
         <div class="row">
           <div class="col  d-flex">
             <img src="/Images/pngwing.com (1).png">
+            <h2>HTML - Advanced</h2>
           </div>
           <div class="col  d-flex">
             <img src="/Images/pngwing.com (2).png">
+            <h2>CSS - Intermediate</h2>
           </div>
           <div class="col  d-flex">
             <img src="/Images/pngwing.com (3).png">
+            <h2>Bootstrap - Beginner</h2>
           </div>
         </div>
       </div>
@@ -187,22 +191,22 @@
         <div class="col-1 d-flex">
           <img src="https://i.postimg.cc/jSdZzZND/Niyaaz.png">
           <div>
-            <h3>Niyaaz - Son</h3>
-            <p>He is a supportive father.<br>Very helpful when im troubled.<br>Always there when i need entjies.</p>
+            <h3>Niyaaz - Colleague</h3>
+            <p>Niyaaz is an extremely hardworking person.<br>His dedication and concentration in his work are genuinely astounding.<br>It's a pleasure to work with someone who is so focused and driven.</p>
           </div>
         </div>
         <div class="col-2 d-flex">
           <img src="https://i.postimg.cc/zDHy7XQC/Jodi.png">
           <div>
-            <h3>Jodi - Peer</h3>
-            <p>Pushes me to my limits.<br>Takes the fall when needed.<br>Always there when i need entjies.</p>
+            <h3>Jodi - Colleague</h3>
+            <p>Working with Joel has been such a pleasure.<br>His skills are nothing short of exceptional.<br>Joel delivers on time with high quality websites and style.<br>He has a keen eye for the best.</p>
           </div>
         </div>
         <div class="col-1 d-flex">
           <img src="https://i.postimg.cc/T1bh3Cb7/Chad.png">
           <div>
-            <h3>Chad - Peer</h3>
-            <p>He is a supportive father.<br>Very helpful when im troubled.<br>Always there when i need a lighter.</p>
+            <h3>Chad - Colleague</h3>
+            <p>Joels proficiency in various programming languages and problem-solving skills are<br>truly impressive.<br>Joel's collaborative nature and willingness to share knowledge have made helped me<br>understand more.<br>He's a valuable asset to any development team.</p>
           </div>
         </div>
       </div>
@@ -217,15 +221,15 @@
             <form  action="https://formspree.io/f/mjvqjgkr" method="POST">
               <div class="mb-3">
                 <label for="exampleInputName1" class="form-label">Full name</label>
-                <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp">
+                <input type="name" class="form-control" id="exampleInputname1" aria-describedby="nameHelp" required>
               </div>
               <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="Email" required>
             </div>
             <div class="mb-3">
               <label for="exampleInputText1" class="form-label">Message</label>
-              <input type="text" class="form-control" id="exampleInputText1">
+              <input type="text" class="form-control" id="exampleInputText1" name="message" required>
             </div>
             <button id="send" type="submit" class="btn btn-primary">Send</button>
           </form>
