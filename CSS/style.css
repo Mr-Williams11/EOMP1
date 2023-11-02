@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/* body{
-    background-color: black;
-} */
  /* Home Section */
 .header{
     position: fixed;
@@ -196,6 +193,18 @@ svg{
     color: white;
 }
 
+.myBtn i{
+    position: fixed;
+    left: 2%;
+    bottom: 3%;
+    border: none;
+    border-radius: 20px;
+    height: auto;
+    background-color: #000000;
+    color: var(--something);
+    padding: 5px;
+}
+
 /* About Section */
 .about{
     height: 100vh;
@@ -248,22 +257,29 @@ svg{
     position: absolute;
 }
 
-.projects-grid{
-    display: grid;
+.row-3{
+    display: flex;
     position: absolute;
-    right: 0;
+    height: 80vh;
+    right: 15%;
+    top: 1725px;
 }
 
 .col-3{
-    position: absolute;
-    display: flex;
     right: 0;
-    width: 800px;
     height: 100px;
+    margin: 5px;
+}
+
+.col-3 h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-wrap: nowrap;
 }
 .col-3 img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 }
 
 /* Skills Section */
@@ -284,17 +300,18 @@ svg{
 
 .row{
     position: absolute;
-    width: 500px;
     height: 80vh;
-    right: 0;
+    right: 5%;
     text-wrap: none;
+}
+
+.col{
+    width: 200px;
 }
 .col img{
     width: 200px;
     height: 200px;
-    text-wrap: none;
 }
-
 
 /* Work Section */
 .work{
