@@ -299,10 +299,11 @@ svg{
 }
 
 .row{
+    display: flex;
+    flex-direction: column;
     position: absolute;
     height: 80vh;
     right: 5%;
-    text-wrap: none;
 }
 
 .col{
@@ -315,7 +316,7 @@ svg{
 
 /* Work Section */
 .work{
-    height: 100vh;
+    height: 100vh;  
     background: linear-gradient(-40deg, black 65%, white 35%);
 }
 .work #headings{
@@ -343,6 +344,55 @@ svg{
     top: 3745px;
     position: absolute;
 }
+
+.row-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 700px;
+    height: 80vh;
+    right: 0;
+    text-wrap: none;
+}
+.col-1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    align-items: center;
+}
+
+.col-2 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 25px;
+}
+
+.col-2 h3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-2 p{
+    color: white;
+    text-wrap: nowrap;
+    width: 500px;
+}
+
+.col-1 h3{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.col-1 p{
+    color: white;
+    text-wrap: nowrap;
+    width: 500px;
+}
+
 /* Contact Section */
 .contact{
     height: 100vh;
@@ -362,6 +412,8 @@ svg{
 .contact h2{
     color: white;
     text-align: right;
+    position: static;
+    bottom: 0;
 }
 
 .contact label{
@@ -369,25 +421,30 @@ svg{
     margin: 20px;
 }
 .form{
+    width: 500px;
+    height: 500px;
     position: absolute;
-    right: 0;
-    padding-right: 200px;
+    margin: 20px;
+    right: 10%;
     box-sizing: border-box;
-    align-items: left;
+    border: 2px solid white;
+    box-shadow: 0 0 5px white, 0 0 10px aqua;
+}
+
+.form label{
+    text-align: left ;
+}
+
+.md-3{
+    text-align: center;
 }
 .input{
-    padding: 12px;
-    margin: 15px;
     width: 30%;
     border: none;
-    color: white;
+    color: aqua;
     outline: none;
 }
 
-.formcontrol{
-    width: 600px;
-    height: 300px;
-}
 #send{
     padding: 10px;
     width: 50%;
@@ -395,9 +452,20 @@ svg{
     outline: none;
 }
 #send:hover{
-    background-color: white;
+    background-color: black;
     color: white(8, 218, 237);
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 10px black, 0 0 20px aqua;
+}
+
+
+/* Footer */
+
+footer{
+    position: static;
+    width: 100%;
+    height: 140px;
+    bottom: 0;
+    background-color: black;
 }
