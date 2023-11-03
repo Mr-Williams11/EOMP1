@@ -1,4 +1,4 @@
-@media all and (min-width:300px) {
+@media screen and (min-width:300px) {
     .header{
         position: fixed;
         top: 0;
@@ -52,7 +52,7 @@
     }
     
     .home{
-        height: 50vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
         display: flex;
         justify-content: space-between;
@@ -202,12 +202,12 @@
     
     /* About Section */
     .about{
-        height: 50vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     
     .about #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
         font-size: 90px;
         /* transform: rotate(-40deg); */
@@ -239,11 +239,11 @@
     
     /* Projects Sections */
     .projects{
-        height: 50vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     .projects #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
         font-size: 100px;
         transform: rotate(-40deg);
@@ -254,17 +254,18 @@
     }
     
     .row-3{
+        width: 600px;
+        height: 40vh;
+        justify-content: space-between;
         display: flex;
+        flex-wrap: wrap;
         position: absolute;
-        height: 80vh;
-        right: 15%;
+        right: 0;
         top: 1725px;
     }
     
     .col-3{
         right: 0;
-        height: 100px;
-        /* margin: 5px; */
     }
     
     .col-3 h2{
@@ -274,17 +275,17 @@
         text-wrap: nowrap;
     }
     .col-3 img{
-        width: 20px;
-        height: 20px;
+        width: 100px;
+        height: 100px;
     }
     
     /* Skills Section */
     .skills{
-        height: 50vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     .skills #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
         font-size: 100px;
         transform: rotate(-40deg);
@@ -295,55 +296,59 @@
     }
     
     .row{
+        width: 600px;
+        height: 40vh;
+        justify-content: space-between;
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         position: absolute;
-        height: 100vh;
-        right: 30%;
+        right: 20px;
+        top: 2450px;
     }
     
     .col{
         width: 200px;
     }
     .col img{
-        width: 20px;
-        height: 20px;
+        width: 100px;
+        height: 100px;
     }
     
     .col h2{
         color: white;
         text-wrap: nowrap;
         margin: 5px;
+        height: 20px;
     }
     
     /* Work Section */
     .work{
-        height: 50vh; 
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     .work #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
         font-size: 100px;
         transform: rotate(-40deg);
         height: 400px;
-        left: 55px;    
-        top: 3185px;
+        left: 85px;    
+        top: 3300px;
         position: absolute;
     }
     /* Testimonials Section */
     .testimonials{
-        height: 100vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     .testimonials #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
-        font-size: 100px;
+        font-size: 70px;
         transform: rotate(-40deg);
         height: 400px;
-        left: -2px;
-        top: 3745px;
+        left: 68px;
+        top: 4150px;
         position: absolute;
     }
     
@@ -398,17 +403,17 @@
     
     /* Contact Section */
     .contact{
-        height: 50vh;
+        height: 40vh;
         background: linear-gradient(-90deg, black 65%, white 35%);
     }
     .contact #headings{
-        -webkit-text-stroke: 5px black;
+        -webkit-text-stroke: 3px black;
         color: white;
         font-size: 100px;
         transform: rotate(-40deg);
         height: 400px;
-        left: 13px;
-        top: 4570px;
+        left: 50px;
+        top: 4970px;
         position: absolute;
     }
     
