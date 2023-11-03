@@ -1,4 +1,4 @@
-@media screen and (min-width:300px) {
+@media screen and (300px<=width) {
     .header{
         position: fixed;
         top: 0;
@@ -479,7 +479,7 @@
     }
 }
 
-@media screen and (min-width:720px) {
+@media screen and(301px<=width<=720px) {
 
     .header{
         position: fixed;
